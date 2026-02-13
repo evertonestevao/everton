@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="px-6 py-20">
+    <section className="px-6 py-20" id="perfil">
       <div className="mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

@@ -7,6 +7,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -86,7 +87,9 @@ export default function Hero() {
           }}
           className="text-zinc-500"
         >
-          <ChevronDown size={28} />
+          <Link href="#perfil">
+            <ChevronDown size={28} />
+          </Link>
         </motion.div>
       </motion.div>
     </section>
