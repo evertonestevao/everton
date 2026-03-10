@@ -61,16 +61,27 @@ export default function LandingPage() {
       {/* HERO */}
       <section className="py-28">
         <div className="container mx-auto px-6 text-center max-w-3xl">
-          <h1 className="text-5xl font-bold text-stone-800 leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-stone-800 leading-tight mb-6">
             Acompanhamento inteligente entre consultas
           </h1>
 
-          <p className="text-lg text-stone-600 mb-8">
+          <p className="text-lg text-stone-600 ">
             Uma plataforma criada para clínicas de saúde integrativa
             acompanharem seus pacientes diariamente através de protocolos
             estruturados, transformando relatos subjetivos em dados clínicos
             organizados.
           </p>
+
+          <div className="flex justify-center">
+            <Image
+              src="/prints/logo.png"
+              alt="Logo da plataforma"
+              width={380}
+              height={380}
+              className="object-contain"
+              priority
+            />
+          </div>
         </div>
       </section>
 
