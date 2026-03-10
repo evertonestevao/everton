@@ -339,6 +339,16 @@ export default function LandingPage() {
 
       <section className="py-24 bg-[#efe8df]">
         <div className="container mx-auto px-6 text-center max-w-2xl">
+          <div className="flex justify-center">
+            <Image
+              src="/prints/logo.png"
+              alt="Logo da plataforma"
+              width={200}
+              height={200}
+              className="object-contain"
+              priority
+            />
+          </div>
           <h2 className="text-3xl font-semibold text-stone-800 mb-6">
             Transforme relatos em dados clínicos
           </h2>
@@ -347,6 +357,8 @@ export default function LandingPage() {
             Melhore o acompanhamento dos seus pacientes e tenha informações mais
             claras para decisões clínicas seguras durante as consultas.
           </p>
+
+          <p className="text-stone-600 mt-8 text-sm">Elaborado por EverApps</p>
         </div>
       </section>
 
