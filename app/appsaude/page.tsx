@@ -133,6 +133,111 @@ export default function LandingPage() {
         </div>
       </section>
 
+      <section className="py-24 bg-[#f4efe8]">
+        <div className="container mx-auto px-6">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="text-3xl font-semibold text-stone-800 mb-4">
+              Análise inteligente da evolução do paciente
+            </h2>
+
+            <p className="text-stone-600">
+              A plataforma poderá utilizar inteligência artificial para analisar
+              os registros realizados pelo paciente em um intervalo de datas e
+              gerar um resumo estruturado da evolução clínica. Isso ajuda o
+              profissional a identificar padrões importantes antes da consulta.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-white border border-stone-200 rounded-xl p-6">
+              <h3 className="font-semibold text-stone-800 mb-2">
+                Processamento de registros
+              </h3>
+
+              <p className="text-sm text-stone-600">
+                A IA analisa check-ins, respostas de protocolos e registros
+                feitos pelo paciente ao longo do período selecionado.
+              </p>
+            </div>
+
+            <div className="bg-white border border-stone-200 rounded-xl p-6">
+              <h3 className="font-semibold text-stone-800 mb-2">
+                Resumo clínico estruturado
+              </h3>
+
+              <p className="text-sm text-stone-600">
+                O sistema organiza as informações e apresenta um resumo claro da
+                evolução do paciente entre duas consultas.
+              </p>
+            </div>
+
+            <div className="bg-white border border-stone-200 rounded-xl p-6">
+              <h3 className="font-semibold text-stone-800 mb-2">
+                Identificação de padrões
+              </h3>
+
+              <p className="text-sm text-stone-600">
+                Ajuda o profissional a perceber tendências relacionadas a humor,
+                sono, ansiedade ou hábitos relatados pelo paciente.
+              </p>
+            </div>
+          </div>
+
+          <div className="max-w-3xl mx-auto mt-16 bg-white border border-stone-200 rounded-2xl shadow-sm overflow-hidden">
+            <div className="bg-white px-6 py-4 border-b border-stone-200">
+              <h4 className="font-semibold text-stone-800">
+                Exemplo de resumo clínico gerado pela plataforma
+              </h4>
+
+              <p className="text-sm text-stone-600">
+                Período analisado: 01/04 – 15/04
+              </p>
+            </div>
+
+            <div className="p-6 space-y-6">
+              <div>
+                <h5 className="text-sm font-semibold text-stone-700 mb-2">
+                  Evolução geral
+                </h5>
+
+                <p className="text-sm text-stone-600 leading-relaxed">
+                  Durante o período analisado, o paciente apresentou
+                  estabilidade moderada de humor, com leve aumento de ansiedade
+                  na segunda semana. Observou-se melhora gradual na qualidade do
+                  sono após mudança de rotina relatada no dia 12.
+                </p>
+              </div>
+
+              <div>
+                <h5 className="text-sm font-semibold text-stone-700 mb-2">
+                  Padrões identificados
+                </h5>
+
+                <ul className="text-sm text-stone-600 space-y-1 list-disc list-inside">
+                  <li>
+                    Oscilações de energia associadas a noites com menos de 6h de
+                    sono
+                  </li>
+                  <li>
+                    Aumento de ansiedade em dias com maior carga de trabalho
+                  </li>
+                  <li>Melhora gradual do humor após ajustes na rotina</li>
+                </ul>
+              </div>
+
+              <div className="bg-[#f7f3ed] border border-stone-200 rounded-lg p-4">
+                <p className="text-xs text-stone-500 leading-relaxed">
+                  *Este resumo é gerado automaticamente para auxiliar na
+                  organização das informações clínicas registradas pelo
+                  paciente. A ferramenta não realiza diagnóstico nem substitui
+                  avaliação profissional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* TELAS */}
       <section className="py-24">
         <div className="container mx-auto px-6">
